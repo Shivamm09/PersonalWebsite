@@ -14,12 +14,12 @@ const HomePage = () => {
     return (
         <div className="App" style={{ backgroundImage: `url(${imageUrl})`, marginTop: '70px' }}>
             <div className="App-content">
-                <h1 style={{ margin: '10px', color: '#173532' }}><font size="+8">Hi, my name is Shivamm Gupta</font></h1>
-                <h2 style={{ margin: '20px', color: '#173532' }}>Data Scientist | Software Engineer</h2>
-                <div style={{ marginTop: '10px' }}>
-                    <a href="mailto:shivammgupta09@gmail.com"><EmailIcon style={{ marginRight: '10px', color: "black" }} className="icon-top" /></a>
-                    <a href="https://www.linkedin.com/in/shivammgupta09/"><LinkedInIcon style={{ marginRight: '10px', color: "black" }} className="icon-top" /></a>
-                    <a href="https://github.com/Shivamm09"><GitHubIcon style={{ marginRight: '10px', color: "black" }} className="icon-top" /></a>
+                <h1 className='title' style={{ margin: '10px', color: '#173532' }}><font >Hi, my name is Shivamm Gupta</font></h1>
+                <h2 className='role' style={{ margin: '20px', color: '#173532' }}>Data Scientist | Software Engineer</h2>
+                <div className='icons' style={{ marginTop: '10px' }}>
+                    <a href="mailto:shivammgupta09@gmail.com"><EmailIcon style={{ marginRight: '10px', color: 'black' }} className="icon-top" /></a>
+                    <a href="https://www.linkedin.com/in/shivammgupta09/"><LinkedInIcon style={{ marginRight: '10px', color: 'black' }} className="icon-top" /></a>
+                    <a href="https://github.com/Shivamm09"><GitHubIcon style={{ marginRight: '10px', color: 'black' }} className="icon-top" /></a>
                 </div>
 
             </div>

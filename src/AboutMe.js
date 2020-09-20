@@ -21,6 +21,7 @@ const AboutMe = () => {
                                 align='center'
                                 justifyContent='center'
                                 style={{ fontWeight: 'bold' }}
+                                className='aboutme'
                             > About Me</Typography>
                         </Grid>
                     </Grid>
@@ -50,24 +51,45 @@ const AboutMe = () => {
                                 justifyContent='center'
                                 align='center'
                                 variant='h6'
-                                style={{ paddingRight: '7px' }} >
+                                style={{ paddingRight: '7px' }}
+                                className='about-text' >
                                 <p>
-                                    I was fortunate enough to engrave myself into new experiences by <b className="bold">exploring diverse cultures</b> and <b className="bold">building relationships with people from all around the world</b> through my traveling experiences. Whilst traveling my <b className="bold">deep connection to sports</b>, especially cricket, was always a constant. Weekends brought a smile to my face as I got to engage with the sport and share experiences with teammates.
+                                    I was fortunate enough to engrave myself into new experiences by
+                                    <b className="bold bold-phone"> exploring diverse cultures </b> and
+                                    <b className="bold  bold-phone">building relationships with people
+                                     from all around the world</b> through my traveling experiences.
+                                      Whilst traveling my <b className="bold bold-phone"> deep connection
+                                       to sports </b>, especially cricket, was always a constant. Weekends
+                                        brought a smile to my face as I got to engage with the sport and
+                                         share experiences with teammates.
                                 </p>
 
                                 <p>
-                                    During my high school experience in India I was introduced to <b className="bold">coding</b>. This gave me an understanding of a new side of the world that I had no idea existed. <b className="bold">I could build real things to help real people make real changes </b >. This motivated me to pursue computer science as a degree at university.
+                                    During my high school experience in India I was introduced to
+                                    <b className="bold  bold-phone"> coding</b>. This gave me an understanding
+                                     of a new side of the world that I had no idea existed. <b className="bold bold-phone">
+                                        I could build real things to help real people make real changes </b >.
+                                         This motivated me to pursue computer science as a degree at university.
 
 
                                 </p>
 
 
                                 <p>
-                                    During my studies at the <b className="bold">University of Edinburgh</b> I got to learn more about <b className="bold">machine learning</b> (ML). I was blown away by it because of the ways in which the ideas could be applied to any kind of datasets in opposing fields and still end up creating powerful applications. <b className="bold">My experiences motivated me to study it further and apply my knowledge to various problems</b>.
+                                    During my studies at the <b className="bold bold-phone">University of Edinburgh
+                                    </b> I got to learn more about <b className="bold bold-phone"> machine learning </b>
+                                     (ML). I was blown away by it because of the ways in which the ideas could be
+                                     applied to any kind of datasets in opposing fields and still end up creating
+                                     powerful applications. <b className="bold bold-phone"> My experiences motivated me to
+                                     study it further and apply my knowledge to various problems</b>.
                                 </p>
 
                                 <p>
-                                    The two areas which I am interested in applying ML to currently are <b className="bold">computer vision and algorithmic trading</b>. I <b className="bold">enjoy all sorts of applications </b> because they give me a chance to experience the broad spectrum it reaches, but also helps me <b className="bold">push my boundaries</b>.
+                                    The two areas which I am interested in applying ML to currently are
+                                    <b className="bold bold-phone"> computer vision and algorithmic trading </b>. I
+                                    <b className="bold bold-phone"> enjoy all sorts of applications </b> because they
+                                    give me a chance to experience the broad spectrum it reaches, but also helps me
+                                    <b className="bold bold-phone"> push my boundaries</b>.
 
 
                                 </p>

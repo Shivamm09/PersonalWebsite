@@ -28,7 +28,8 @@ const Projects = () => {
                         justifyContent='center'
                         align='center'
                         variant='h4'
-                        style={{ fontSize: '40px', fontWeight: "bold" }}>
+                        style={{ fontSize: '40px', fontWeight: "bold" }}
+                        className='projects-title'>
                         Projects</Typography>
                 </Grid>
 

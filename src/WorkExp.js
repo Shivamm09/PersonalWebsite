@@ -33,13 +33,16 @@ const WorkExp = (props) => {
         <Grid item>
           <Typography
             variant='h4'
-            style={{ textAlign: 'center', fontWeight: 'bold', paddingTop: '20px' }}>{props.jobTitle}</Typography>
+            style={{ textAlign: 'center', fontWeight: 'bold', paddingTop: '20px' }}
+            className='job-title'>
+            {props.jobTitle}</Typography>
           <hr style={{ width: "40%" }}></hr>
 
         </Grid>
 
         <Grid item>
-          <h2>{props.company + ' | ' + props.date}</h2>
+          <h2 className='job-company'
+            style={{ textAlign: 'center' }}>{props.company + ' | ' + props.date}</h2>
         </Grid>
 
         <Grid item>
@@ -53,8 +56,9 @@ const WorkExp = (props) => {
             </AccordionSummary>
             <AccordionDetails style={{ backgroundColor: "white", marginLeft: '30px', marginRight: '30px' }}>
               <Typography
-                align='left'
-                style={{ fontSize: '24px' }}>
+                align='center'
+                style={{ fontSize: '24px' }}
+                className='job-text'>
                 {props.description}
               </Typography>
             </AccordionDetails>

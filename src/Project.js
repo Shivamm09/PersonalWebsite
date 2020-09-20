@@ -18,7 +18,7 @@ const Project = (props) => {
       <CardActionArea style={{ height: "350px" }}>
         <CardContent>
           <Typography
-            variant='h4'
+            variant='h6'
             style={{ textAlign: 'center', fontWeight: 'bold', paddingBottom: '10px' }}>
             {props.title}
           </Typography>

@@ -10,22 +10,20 @@ const TopMenu = () => (
     position: "fixed", top: "0", width: '100%'
   }}>
     <Toolbar>
-      <Button edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#AboutMe"}>
+      <Button className="toolbar" edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#AboutMe"}>
         About Me
           </Button>
-      <Button edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#WorkExperience"}>
+      <Button className="toolbar" edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#WorkExperience"}>
         Work Experience
           </Button>
 
-      <Button edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#Projects"}>
+      <Button className="toolbar" edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#Projects"}>
         Projects
           </Button>
-      <Button edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#Skills"}>
+      <Button className="toolbar" edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#Skills"}>
         Skills
           </Button>
-      {/* <Button edge="start" color="inherit" aria-label="menu" onClick={() => window.location.href = "#Certifications"}>
-        Certificates
-          </Button> */}
+
 
 
     </Toolbar>

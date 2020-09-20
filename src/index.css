@@ -162,3 +162,75 @@ code {
 .bold {
   font-size: 22px;
 }
+
+.toolbar {
+  font-size: 16px !important;
+}
+
+.icons {
+  color: 'black' !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .toolbar {
+    font-size: 10px !important;
+  }
+
+  .title {
+    font-size: 30px !important;
+  }
+
+  .role {
+    font-size: 20px !important;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .icons {
+    margin-top: 0 !important;
+  }
+
+  .aboutme {
+    font-size: 34px !important;
+  }
+
+  .about-text {
+    font-size: 14px !important;
+  }
+
+  .bold-phone {
+    font-size: 18px !important;
+  }
+
+  .exp-title {
+    height: 300px !important;
+  }
+
+  .job-title {
+    font-size: 20px !important;
+  }
+
+  .job-company {
+    font-size: 18px !important;
+  }
+
+  .job-text {
+    font-size: 14px !important;
+    margin: 0 !important
+  }
+
+  .projects-title {
+    padding-bottom: 10px !important;
+  }
+
+  .skills-title {
+    font-size: 40px !important;
+    padding-top: 20px;
+  }
+
+  .cert-title {
+    font-size: 30px !important;
+  }
+}

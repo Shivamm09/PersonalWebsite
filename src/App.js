@@ -10,7 +10,7 @@ import AboutMe from './AboutMe.js'
 import HomePage from './HomePage.js'
 import Experience from './Experience.js'
 import Projects from './Projects.js'
-import Skills from "./Skills.js"
+import SkillsTwo from "./SkillsTwo.js"
 import { Grid } from '@material-ui/core';
 import Certifications from './Certifications.js';
 import Footer from './Footer.js';
@@ -38,7 +38,7 @@ class App extends React.Component {
         <Grid container direction="row" justify="center" alignItems="center"
           style={{ marginBottom: '60px', marginTop: '60px', backgroundColor: 'rgba(102, 252, 242,0.7)' }}>
           <Grid item lg={8} md={12}>
-            <Skills />
+            <SkillsTwo />
           </Grid>
           <Grid item lg={4} md={12}>
             <Certifications />
