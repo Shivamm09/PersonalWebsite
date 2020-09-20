@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.54ecd4de.chunk.css",
+    "main.js": "/PersonalWebsite/static/js/main.f5b6f730.chunk.js",
+    "main.js.map": "/PersonalWebsite/static/js/main.f5b6f730.chunk.js.map",
+    "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.f1fb97d7.js",
+    "runtime-main.js.map": "/PersonalWebsite/static/js/runtime-main.f1fb97d7.js.map",
+    "static/js/2.db3082bc.chunk.js": "/PersonalWebsite/static/js/2.db3082bc.chunk.js",
+    "static/js/2.db3082bc.chunk.js.map": "/PersonalWebsite/static/js/2.db3082bc.chunk.js.map",
+    "index.html": "/PersonalWebsite/index.html",
+    "precache-manifest.09eff1fc450f294213bc8b627bce2d2c.js": "/PersonalWebsite/precache-manifest.09eff1fc450f294213bc8b627bce2d2c.js",
+    "service-worker.js": "/PersonalWebsite/service-worker.js",
+    "static/css/main.54ecd4de.chunk.css.map": "/PersonalWebsite/static/css/main.54ecd4de.chunk.css.map",
+    "static/js/2.db3082bc.chunk.js.LICENSE.txt": "/PersonalWebsite/static/js/2.db3082bc.chunk.js.LICENSE.txt",
+    "static/media/aboutme.JPG": "/PersonalWebsite/static/media/aboutme.9b6b6a22.JPG",
+    "static/media/datacamp.png": "/PersonalWebsite/static/media/datacamp.4945ac6d.png",
+    "static/media/dataquest.png": "/PersonalWebsite/static/media/dataquest.bdc4c4b7.png",
+    "static/media/ed.png": "/PersonalWebsite/static/media/ed.abe45bdd.png",
+    "static/media/happy.JPG": "/PersonalWebsite/static/media/happy.22e70043.JPG",
+    "static/media/linkedin.png": "/PersonalWebsite/static/media/linkedin.7918c825.png",
+    "static/media/logo.svg": "/PersonalWebsite/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1fb97d7.js",
+    "static/js/2.db3082bc.chunk.js",
+    "static/css/main.54ecd4de.chunk.css",
+    "static/js/main.f5b6f730.chunk.js"
+  ]
+}
