@@ -56,7 +56,7 @@ const AboutMe = () => {
                                 <p>
                                     I was fortunate enough to engrave myself into new experiences by
                                     <b className="bold bold-phone"> exploring diverse cultures </b> and
-                                    <b className="bold  bold-phone">building relationships with people
+                                    <b className="bold  bold-phone"> building relationships with people
                                      from all around the world</b> through my traveling experiences.
                                       Whilst traveling my <b className="bold bold-phone"> deep connection
                                        to sports </b>, especially cricket, was always a constant. Weekends
