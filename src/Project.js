@@ -36,8 +36,6 @@ const Project = (props) => {
               <a href={props.link}>{
                 props.id === 'Attrition' ? <><GitHubIcon className='icon' style={{
                   color: 'black', paddingRight: '10px'
-                }} /><LinkedInIcon className='icon' style={{
-                  color: 'black', paddingRight: '10px'
                 }} />
                 </> :
                   props.id === 'Salary' ?

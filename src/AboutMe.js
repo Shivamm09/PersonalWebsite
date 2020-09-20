@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
+import desktopImage from './aboutme.JPG';
 
 
 const AboutMe = () => {
@@ -15,7 +16,7 @@ const AboutMe = () => {
                         style={{ height: '100%' }}>
                         <Grid item>
                             <Typography
-                                variant='h4'
+                                variant='h3'
                                 display='block'
                                 align='center'
                                 justifyContent='center'
@@ -36,9 +37,10 @@ const AboutMe = () => {
 
                         <Grid item
                             style={{ marginLeft: 'auto', marginRight: 'auto' }}>
-                            <img src="images/aboutme.JPG"
+                            <img src={desktopImage}
                                 style={{ height: '300px', borderRadius: '50%', marginTop: '30px' }}>
                             </img>
+
                         </Grid>
 
                         <Grid item
@@ -49,21 +51,28 @@ const AboutMe = () => {
                                 align='center'
                                 variant='h6'
                                 style={{ paddingRight: '7px' }} >
-                                Travelling through many countries as a kid, I was fortunate enough to explore diverse cultures, engrave myself into new experiences, and build lifetime relationships with people from all around the world.
-                                Throughout the journey, I had a deep connection to sports, especially cricket.
-                                Weekends always put a smile on my face as it was a chance to play, be it on an actual ground or even in unorthodox places such as tennis courts
-                                since it was a chance to engage with the sport and share great experiences with teammates and the opposition team.
-                                When I moved back home to India, I was introduced to coding in high school.
-                                Coding gave me an understanding to a new side of the world that I had no idea existed.
-                                I could build real things to help real people to make real changes.
-                                I felt like an Avenger with the tools available at my disposal.
-                                This motivated me to pursue computer science as a degree at university.
-                                During my experiences at the University of Edinburgh and in my internships, I got to learn more about machine learning (ML).
-                                I was blown away by these concepts because of the ways in which the ideas could be applied to any kind of datasets in such opposing fields and still end up creating powerful applications.
-                                My experiences motivated me to take up online courses on ML and apply my skills on different platforms.
-                                The two areas which I am interested in applying ML to currently are computer vision and algorithmic trading.
-                                I enjoy all sorts of applications of ML because they give me a chance to experience the broad spectrum it reaches,
-                                but also helps me push my boundaries.
+                                <p>
+                                    I was fortunate enough to engrave myself into new experiences by <b className="bold">exploring diverse cultures</b> and <b className="bold">building relationships with people from all around the world</b> through my traveling experiences. Whilst traveling my <b className="bold">deep connection to sports</b>, especially cricket, was always a constant. Weekends brought a smile to my face as I got to engage with the sport and share experiences with teammates.
+                                </p>
+
+                                <p>
+                                    During my high school experience in India I was introduced to <b className="bold">coding</b>. This gave me an understanding of a new side of the world that I had no idea existed. <b className="bold">I could build real things to help real people make real changes </b >. This motivated me to pursue computer science as a degree at university.
+
+
+                                </p>
+
+
+                                <p>
+                                    During my studies at the <b className="bold">University of Edinburgh</b> I got to learn more about <b className="bold">machine learning</b> (ML). I was blown away by it because of the ways in which the ideas could be applied to any kind of datasets in opposing fields and still end up creating powerful applications. <b className="bold">My experiences motivated me to study it further and apply my knowledge to various problems</b>.
+                                </p>
+
+                                <p>
+                                    The two areas which I am interested in applying ML to currently are <b className="bold">computer vision and algorithmic trading</b>. I <b className="bold">enjoy all sorts of applications </b> because they give me a chance to experience the broad spectrum it reaches, but also helps me <b className="bold">push my boundaries</b>.
+
+
+                                </p>
+
+
                             </Typography>
                         </Grid>
                     </Grid>
